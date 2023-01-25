@@ -1,0 +1,18 @@
+{% extends "listings/base.html" %}
+
+{% block title %}
+<center>{{ name }}</center>
+{% endblock title %}
+
+{% block content %}
+<form method="POST">
+    {% csrf_token %}
+    <table>
+        {{login.as_table}}
+    </table>
+  
+    <input type="submit" name="btn" value="login">
+</form>
+<br>
+<b><span>{{status}}</span></b>
+{% endblock %}

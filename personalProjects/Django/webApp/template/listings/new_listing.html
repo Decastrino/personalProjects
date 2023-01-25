@@ -1,0 +1,17 @@
+
+{% extends "listings/base.html" %}
+{% block title %}<title>New Listing</title>{%endblock title %}
+
+{% block content%}
+    <body>
+        <h1>NEW LISTING</h1>
+        <!-- We need enctype="multipart/form-data" because we are sending image files. If we don’t include this, the request.FILES in view.py will be empty. If we are submitting data only, then we don’t need the enctype tag.-->
+        <form action="{% url 'listings:new_listing' %}" method='post' enctype="multipart/form-data">
+            <div class="form-group">
+                {% csrf_token %}
+                {{ form.as_p }}
+            </div>
+            <button type="submit" class="btn">Create Listing</button>
+        </form>
+    </body>
+{% endblock content%}
