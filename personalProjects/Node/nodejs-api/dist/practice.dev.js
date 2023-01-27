@@ -6,7 +6,14 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
-// destructuring objects
+var name = process.argv[2];
+console.log(process.argv);
+var location = process.argv[3];
+console.log("Hi, I'm ".concat(name, "! I live in ").concat(location));
+console.log("process.env:", process.env);
+console.log("process.env.NODE_ENV: ", process.env.NODE_ENV);
+console.log("process.env.PORT: ", process.env.PORT); // destructuring objects
+
 var animal = {
   type: "vertebrate",
   Class: "mammal",
