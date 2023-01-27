@@ -1,17 +1,28 @@
+'use strict';
+
 // Instantiating the Express application
+const { strict } = require("assert");
 const express = require("express");
 const path = require("path");
 
 const app = express(); // ----> Instance of Express server declaared at the top
 
+const port = process.env.PORT || 5000;
+
 // Middleware function that takes in req, res, and next as args.
 app.use((req, res, next) => {
-  console.log(req.method, req.path);
+  
+  //console.log(req.method, req.path);
   const { method, path } = req;
   console.log(`New request to: ${method} ${path} at ${new Date().toISOString()}`);
   next();
 });
 
+app.get('/', (req,res) => {
+  res.json({
+    "Greeting" : "Hello there!!"
+  })
+})
 /*
 const publicDirectoryPath = path.join(__dirname, './public');
 app.use(express.static(publicDirectoryPath));
@@ -28,7 +39,7 @@ app.get("/:name", (req,res) => {
 });
 */
 
-const port = process.env.PORT || 8080;
+
 
 
 app.listen(port, () => {

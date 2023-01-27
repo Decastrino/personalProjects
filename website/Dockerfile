@@ -1,4 +1,4 @@
 
-FROM hshar/webapp
+FROM nginx:alpine
 
-Add . /var/www/html
+ADD . /usr/share/nginx/html
