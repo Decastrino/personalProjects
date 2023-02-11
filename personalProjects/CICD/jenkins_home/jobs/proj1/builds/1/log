@@ -1,0 +1,7 @@
+Started by user [8mha:////4FiJp1hkqpDQuOPRcIdXWv27Cg5Fp8Yuzs2eGHRnOfFZAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL9xJTczDwA4LbuW8AAAAA=[0mHelix Tinubu
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/proj1
+[proj1] $ /bin/sh -xe /tmp/jenkins4466129928884994340.sh
++ echo Hello World
+Hello World
+Finished: SUCCESS
