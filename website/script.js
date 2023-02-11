@@ -64,11 +64,5 @@ const check = () => {
     }
 }
 
-checkButtonEl.addEventListener('click', check())
-againButtonEl.addEventListener('click', again())
-
-/*
-FROM hshar/webapp
-
-Add . /var/www/html
-*/
+checkButtonEl.addEventListener('click', check)
+againButtonEl.addEventListener('click', again)
