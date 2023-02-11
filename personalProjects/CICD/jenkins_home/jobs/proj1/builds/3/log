@@ -1,8 +1,0 @@
-Started by user [8mha:////4FiJp1hkqpDQuOPRcIdXWv27Cg5Fp8Yuzs2eGHRnOfFZAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL9xJTczDwA4LbuW8AAAAA=[0mHelix Tinubu
-Running as SYSTEM
-Building in workspace /var/jenkins_home/workspace/proj1
-[proj1] $ /bin/sh -xe /tmp/jenkins13903138833592917505.sh
-+ date
-+ echo Hello World, today's date is Sat Feb  4 20:48:08 UTC 2023 
-Hello World, today's date is Sat Feb  4 20:48:08 UTC 2023 
-Finished: SUCCESS
